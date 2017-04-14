@@ -37,8 +37,7 @@ body{
     float: left;
     }
     p{
-    font-size: 14px;
-    font-size: 1.4rem;
+    font-size: 24px;
     width: 168px;
     color: #002f5a;
     margin-left: 120px;
@@ -50,30 +49,23 @@ body{
         .menu-t{
         float: left;
         margin: 0 10px;
-        font-size: 10px;
-        font-size: 1.0rem;
+        font-size: 12px;
         line-height: 60px;
         cursor: pointer;
         color: #306496;
-            background: #fff;
-            a{
-               text-decoration: none;  
-            }
         }
     }
-    .menu-sm{
+    .menu_{
         font-family: 'iconfont';
         height: 40px;
         width: 40px;
         font-size: 30px;
-        font-size: 3.0rem;
         text-align: center;
         line-height: 40px;
         position: absolute;
         top: 20px;
         right: 10px;
         display: none;
-        cursor: pointer;
     }
 }
 .shade{
@@ -82,21 +74,17 @@ body{
     background: #062b52;
     background-color: rgba(6, 43, 80, 0.3);
     overflow: hidden;
-    margin-top: 78px;
     .shade-font{
         height: 190px;
         width: 680px;
         margin-top: 385px;
         margin-left: 215px;
-        display: none;
         p{
-            font-size: 28px;
-            font-size: 2.8rem;
+            font-size: 38px;
             color: #fff;
         }
         span{
             font-size: 18px;
-            font-size:1.8rem;
             color: #fff;
         }
     }
@@ -115,10 +103,8 @@ body{
             width: 215px;
             margin-top: 90px;
             margin-left: 190px;
-            display: none;
             p,b{
-                font-size: 26px;
-                font-size: 2.6rem;
+                font-size: 40px;
                 color: #073660;
             }
         }
@@ -129,13 +115,11 @@ body{
         background: #fff; 
         float: right;
         position: relative;
-        display: none;
         ul{
             margin-left: 120px;
             margin-top: 80px;
             list-style: square;
-            font-size: 20px;
-            font-size: 2.0rem;
+            font-size: 30px;
             color: #41b7c4;
             li{
                 margin-top: 25px; 
@@ -175,13 +159,11 @@ body{
     background: #00305b;
     overflow: hidden;
     .object{
-        font-size: 30px;
-        font-size: 3.0rem;
+        font-size: 40px;
         font-weight: 700;
         color: #fff;
         text-align: center;
-        margin-top: 40px;
-        display: none;
+        margin-top: 100px;
         }
     .sub-in{
         height: 560px;
@@ -191,7 +173,6 @@ body{
         margin-top: 30px;
         overflow: hidden;
         position: relative;
-        display: none;
         .rounde{
         left: 220px;
         top: 85px;
@@ -232,12 +213,11 @@ body{
     background:#eaf4f6;
     overflow: hidden;
     position: relative;
-    .sevr-tit{
+    p{
         text-align: center;
-        margin-top: 55px;
+        margin-top: 115px;
         color: #002f5a;
-        font-size: 40px;
-        display: none;
+        font-size: 40px; 
     }
     .wire{
         height: 750px;
@@ -273,125 +253,62 @@ body{
           top: 555px;
           left: 375px;
         }
-    .sevr-first{
-        height: 50px;
-        width: 790px;
-        margin-left: 430px;
-        margin-top: 90px;
-        display: none;
-        .sevr-left{
-            width: 160px;
-        }
-        p{
-            font-size: 12px;
-            font-size: 1.2rem;
-            color: #466988;
-            text-align: center;
-        }
-        .sen{
-            font-size: 10px;
-            font-size: 1.0rem;
-            color: #466988;
-            text-align: left;
-            margin-left: 180px;
-            margin-top: -45px;
-        }
-        .sec{
-            font-size: 11px;
-            font-size: 1.1rem;
-            color: #045bad;
-            clear: both;
-        }
+    .sevr-font{
+        position: absolute;
+        top: 85px;
+        left: 443px;
+        text-align: center;
+        width: 170px;
     }
-    .sevr-second{
-        height: 50px;
-        width: 790px;
-        margin-left: 430px;
-        margin-top: 37px;
-        display: none;
-        .sevr-left{
-            width: 160px;
+     .res-font{
+            color: #1969b4;
+            font-size: 14px;
         }
-        p{
-            font-size: 12px;
-            font-size: 1.2rem;
-            color: #466988;
-            text-align: center;
+     .resp-font{
+            font-size: 20px;
         }
-        .sen{
-            font-size: 10px;
-            font-size: 1.0rem;
-            color: #466988;
-            text-align: left;
-            margin-left: 180px;
-            margin-top: -45px;
-        }
-        .sec{
-            font-size: 11px;
-            font-size: 1.1rem;
-            color: #045bad;
-            clear: both;
-        }
+    .sevr-fonta{
+        position: absolute;
+        top: 165px;
+        left: 448px;
+        text-align: center;
+        width: 170px;
     }
-    .sevr-third{
-        height: 50px;
-        width: 790px;
-        margin-left: 430px;
-        margin-top: 85px;
-        display: none;
-        .sevr-left{
-            width: 160px;
-        }
-        p{
-            font-size: 12px;
-            font-size: 1.2rem;
-            color: #466988;
-            text-align: center;
-        }
-        .sen{
-            font-size: 10px;
-            font-size: 1.0rem;
-            color: #466988;
-            text-align: left;
-            margin-left: 180px;
-            margin-top: -45px;
-        }
-        .sec{
-            font-size: 11px;
-            font-size: 1.1rem;
-            color: #045bad;
-            clear: both;
-        }
+    .sevr-fontb{
+        position: absolute;
+        top: 292px;
+        left: 448px;
+        text-align: center;
+        width: 170px;
     }
-    .sevr-fouth{
-        height: 50px;
-        width: 790px;
-        margin-left: 430px;
-        margin-top: 90px;
-        display: none;
-        .sevr-left{
-            width: 160px;
-        }
-        p{
-            font-size: 12px;
-            font-size: 1.2rem;
-            color: #466988;
-            text-align: center;
-        }
-        .sen{
-            font-size: 10px;
-            font-size: 1.0rem;
-            color: #466988;
-            text-align: left;
-            margin-left: 180px;
-            margin-top: -45px;
-        }
-        .sec{
-            font-size: 11px;
-            font-size: 1.1rem;
-            color: #045bad;
-            clear: both;
-        }
+    .sevr-fontc{
+        position: absolute;
+        top: 440px;
+        left: 448px;
+        text-align: center;
+        width: 170px;
+    }
+    .sevr-p{
+        width: 640px;
+        font-size: 16px;
+        text-align: left;
+        position: absolute;
+    }
+    .sevr-p-a{
+        left: 640px;
+        top: 88px;
+    }
+    .sevr-p-b{
+        left: 640px;
+        top: 165px;
+    }
+    .sevr-p-c{
+        left: 640px;
+        top: 440px;
+    }
+    .sevr-p-d{
+        left: 640px;
+        top: 292px;
     }
 }
 .base{
@@ -404,12 +321,10 @@ body{
         width: 40%;
         float: left;
         background-color: rgba(6, 43, 80, 0.8);
-        display: none;
         p{
             font-weight: 600;
             color: #fff;
-            font-size: 30px;
-            font-size: 3.0rem;
+            font-size: 40px;
             margin-top: 140px;
             margin-left: 175px;
         }
@@ -422,25 +337,21 @@ body{
         width: 60%;
         float: right;
         background-color: rgba(6, 43, 80, 0.6);
-         display: none;
          .char{
              margin-top: 140px;
              margin-left: 140px;
          }
          p{
              color: #c3d0dc;
-             font-size: 12px;
-             font-size: 1.2rem;
+             font-size: 18px;
          }
          a{
              color: #64a0ba;
-             font-size: 12px;
-             font-size: 1.2rem;
+             font-size: 18px;
          }
          .eng{
              color: #64a0ba;
-             font-size: 12px;
-             font-size: 1.2rem;
+             font-size: 18px;
          }
          .logo{
              height: 25px;
@@ -481,8 +392,7 @@ body{
     }
     p{
         color: #f6f5f7;
-        font-size: 10px;
-        font-size: 1.0rem;
+        font-size: 14px;
         text-align: center;
     }
 }
@@ -495,46 +405,17 @@ body{
         text-align: center;
     }
 }
-.back a{
-    height: 40px;
-    width: 40px;
-    background: rgba(1,1,1,0.9);
-}
 @media screen and (max-width:970px){
-    .tit .menu-sm{
+    .menu{
+        display: none;
+    }
+    .tit .menu_{
         display:block;
-    }
-    .menu-sm.h + .menu{
-		display: none;
-		}
-    .tit .menu .menu-t{
-        float: none;
-        margin: 1px;
-        line-height: 26px;
-        width: 100%;
-        background-color: rgba(234, 244, 246, 0.8);
-        text-align: center;
-    }
-    .tit .menu{
-        margin-right: 1%;
-        width: 100%;
     }
     .tit p{
         margin: 0 auto;
     }
     .shade{
-        width: 100%;
-        height: auto;
-        margin-top: -60%;
-        .shade-font{
-            margin-left: 5%;
-            height: auto;
-            font-size: 2.5rem;
-            font-size: 25px;
-            margin-bottom: 20%;
-            width: auto;
-            display: block;
-        }
     }
     .mater_a .mater-l{
         float: none;
@@ -542,15 +423,12 @@ body{
         text-align: center;
         height: 200px;
         .mater_a-font{
-            margin: 0 auto;
-            margin-top: 10%;
-            display: block;
+            margin-top: 40px;
         }
     }
     .mater_a .mater-r{
         height: auto;
         width: 100%;
-        display: block;
         .fram{
             width: 80%;
             margin: 0 auto;
@@ -561,17 +439,12 @@ body{
     }
     .sub{
         width: 100%;
-        height: auto;
-        .object{
-            display: block;
-        }
         p{
             margin-top: 10%;
         }
         .sub-in{
             width: 100%;
             height: auto;
-            display: block;
             .fram{
             width: 80%;
             margin: 0 auto;
@@ -586,60 +459,37 @@ body{
     }
     .sevr{    
         width: 100%;
-        height: auto;
-
-        .sevr-tit{
+        p,b{
             margin-top: 10%;
-            text-align: center;
-            display: block;
         }
         .wire,.sevr-ico{
             display: none;
         }
-        .sevr-first,.sevr-second,.sevr-third,.sevr-fouth{
-            margin-left: 5%;
-            height: auto;
-            width: 100%;
-            display: block;
-            .sen{
-                height: auto;
-                margin-top: 2%;
-                margin-left: 2%;
-                width: 90%;
-                }
-            .sevr-left{
-               width: 100%;
-               height: auto;
-               margin: 20px auto;
-            }
+        .sevr-font{
+            margin-left: 50%;
         }
     }
     .base .base-l{
         float: none;
         width: 100%;
         height: auto;
-        overflow: hidden;
-        display: block;
         p{
             margin-left: 8%;
-            margin-bottom: 5%;
         }
     }
     .base .base-r{
         width: 100%;
-        height: auto;
-        display: block;
         .char{
             margin-left: 5%;
         }
-        .logo,.logoa,.logob{
+        .logo,logoa,logob{
             display: none;
         }
-    }
-    .round{
-        display: none;
-    }
-    .opcity{
-            
+        .logoa{
+            display: none;
+        }
+        .logob{
+            display: none;
+        }
     }
 }
